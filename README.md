@@ -1,8 +1,6 @@
 # Plex Landing Page
 
-[![Build Status](https://travis-ci.org/ryjo1026/plex-landing-page.svg?branch=master)](https://travis-ci.org/ryjo1026/plex-landing-page)
-
-A simple landing page for your Plex Media Server. I made this with [bulma](https://bulma.io/) for CSS styling and [mustache.js](http://mustache.github.io/) for templating.
+A simple landing page for your Plex Media Server. Made with [bulma](https://bulma.io/) for CSS styling and [mustache.js](http://mustache.github.io/) for templating.
 
 ![Landing Page Screenshot](https://i.imgur.com/RadvB9M.jpg)
 
