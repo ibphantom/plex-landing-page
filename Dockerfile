@@ -8,4 +8,4 @@ COPY . /usr/share/nginx/html
 
 # Preinstall all tools
 RUN rm -rf /usr/share/nginx/html/node_modules
-RUN cd /usr/share/nginx/html && npm install
+RUN cd /usr/share/nginx/html && npm upgrade && npm install
