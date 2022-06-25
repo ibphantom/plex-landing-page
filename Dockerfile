@@ -1,4 +1,4 @@
-FROM nginx:alpine-stable
+FROM nginx:stable-alpine
 
 # Install node
 RUN apk update && apk add --no-cache npm
