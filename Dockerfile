@@ -1,7 +1,7 @@
-FROM nginx:alpine
+FROM nginx:alpine-stable
 
 # Install node
-RUN apk -U upgrade && apk add --no-cache npm
+RUN apk update && apk add --no-cache npm
 
 # Copy all files over to www
 COPY . /usr/share/nginx/html
